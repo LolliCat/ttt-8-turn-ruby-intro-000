@@ -44,7 +44,6 @@ def turn(board)
     until valid_move?(board, index)
       turn(board)
     end
-  end
 
   move(board, index)
   display_board(board)
